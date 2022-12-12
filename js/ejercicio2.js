@@ -19,3 +19,12 @@ function reves(str) {
     return tmpStr;
     
 }
+
+function esPalindromo(str) {
+    let res = false;
+    str = str.toLowerCase ();
+    if (reves(str)==str){
+        res = true;
+    }
+    return res;
+}
